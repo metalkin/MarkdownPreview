@@ -1,6 +1,18 @@
+# Markdown Preview forked repo
+Added "copy HTML to clipboard" button on setting dialog. It copies parsed markdown HTML to clipboard.
+
+This repo is not listed in brackets extension manger. Install manually to use it.
+
+### Used code
+- Submodule for copy-to-clipboard function
+  - https://github.com/xavi-/node-copy-paste.git
+- Domain code
+  - https://github.com/VinceMalone/Brackets-FileInfoToClipboard.git
+
+
 # Markdown Preview
 
-A [Brackets](https://github.com/adobe/brackets) extension that provides a live preview of markdown documents. 
+A [Brackets](https://github.com/adobe/brackets) extension that provides a live preview of markdown documents.
 
 ![Alt text](./screenshots/markdown-preview.png?raw=true "Markdown Preview")
 
@@ -11,8 +23,8 @@ A [Brackets](https://github.com/adobe/brackets) extension that provides a live p
 * Click the **Install** button
 
 ### How To Use
-When a markdown document (with extension ".md" or ".markdown") is open, a markdown icon is shown in the 
-toolbar at the top of the Brackets window. Click this icon to open the preview panel. The panel can be 
+When a markdown document (with extension ".md" or ".markdown") is open, a markdown icon is shown in the
+toolbar at the top of the Brackets window. Click this icon to open the preview panel. The panel can be
 resized vertically.
 
 The preview is updated as you edit the document. You can hover over links to see the href in a tooltip,
@@ -23,19 +35,19 @@ Hover over the preview area to show the settings "gear" icon. Click this icon to
 ### Settings
 
 #### Format
-By default, the document is rendered as standard Markdown. Change the dropdown to "GitHub-Flavored (GFM)" 
+By default, the document is rendered as standard Markdown. Change the dropdown to "GitHub-Flavored (GFM)"
 to see the Markdown as it would appear in a GitHub issue, pull request, or comment.
 
 #### Theme
-There are three themes available: 
+There are three themes available:
 
 * Light - Black text on a light background, similar to GitHub wiki pages.
 * Dark - Light text on a dark background.
 * Classic - Black text with a serif font on a light background
 
 #### Sync scroll position
-When checked, scrolling in the editor scrolls the preview to roughly the same location. 
-The scroll position of the preview is based on the scroll position of the source document, so the 
+When checked, scrolling in the editor scrolls the preview to roughly the same location.
+The scroll position of the preview is based on the scroll position of the source document, so the
 position may be out of sync if you have really long lines in your source file. Scroll synchronization
 works best when the preview and code view are the same height.
 
