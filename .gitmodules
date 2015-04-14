@@ -1,6 +1,3 @@
 [submodule "node/node_modules"]
 	path = node/node_modules
 	url = https://github.com/xavi-/node-copy-paste.git
-[submodule "node/node_modules/copy-paste"]
-	path = node/node_modules/copy-paste
-	url = https://github.com/xavi-/node-copy-paste.git
